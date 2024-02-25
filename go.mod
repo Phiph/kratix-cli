@@ -7,7 +7,7 @@ toolchain go1.21.3
 require (
 	github.com/daixiang0/gci v0.12.1
 	github.com/docker/docker v25.0.3+incompatible
-	github.com/go-critic/go-critic v0.11.0
+	github.com/go-critic/go-critic v0.11.1
 	github.com/golangci/golangci-lint v1.56.1
 	github.com/gotesttools/gotestfmt/v2 v2.5.0
 	github.com/muesli/mango-cobra v1.2.0
@@ -74,7 +74,7 @@ require (
 	github.com/go-logr/stdr v1.2.2 // indirect
 	github.com/go-toolsmith/astcast v1.1.0 // indirect
 	github.com/go-toolsmith/astcopy v1.1.0 // indirect
-	github.com/go-toolsmith/astequal v1.1.0 // indirect
+	github.com/go-toolsmith/astequal v1.2.0 // indirect
 	github.com/go-toolsmith/astfmt v1.1.0 // indirect
 	github.com/go-toolsmith/astp v1.1.0 // indirect
 	github.com/go-toolsmith/pkgload v1.2.2 // indirect
