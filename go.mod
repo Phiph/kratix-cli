@@ -1,4 +1,4 @@
-module github.com/FalcoSuessgott/golang-cli-template
+module github.com/phiph/kratix-cli
 
 go 1.19
 

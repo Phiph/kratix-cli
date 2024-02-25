@@ -34,7 +34,7 @@ nfpms:
   - builds:
       - golang-cli-template
     vendor: FalcoSuessgott
-    homepage:  https://github.com/FalcoSuessgott/golang-cli-template
+    homepage:  https://github.com/phiph/kratix-cli
     maintainer: "Tom Morelly <tommorelly@gmail.com>"
     description: "A general purpose golang CLI template for Github and Gitlab"
     license: GPL-3.0
@@ -69,7 +69,7 @@ dockers:
   use: buildx
   build_flag_templates:
   - "--pull"
-  - "--label=io.artifacthub.package.readme-url=https://raw.githubusercontent.com/FalcoSuessgott/golang-cli-template/master/README.md"
+  - "--label=io.artifacthub.package.readme-url=https://raw.githubusercontent.com/phiph/kratix-cli/master/README.md"
   - "--label=io.artifacthub.package.maintainers=[{\"name\":\"Tom Morelly\",\"email\":\"tommorelly@gmail.com\"}]"
   - "--label=io.artifacthub.package.license=MIT"
   - "--label=org.opencontainers.image.description=A general purpose golang CLI template for Github and Gitlab"
@@ -86,8 +86,8 @@ dockers:
   use: buildx
   build_flag_templates:
   - "--pull"
-  - "--label=io.artifacthub.package.readme-url=https://raw.githubusercontent.com/FalcoSuessgott/golang-cli-template/master/README.md"
-  - "--label=io.artifacthub.package.logo-url=https://raw.githubusercontent.com/FalcoSuessgott/golang-cli-template/master/www/static/images/logo.png"
+  - "--label=io.artifacthub.package.readme-url=https://raw.githubusercontent.com/phiph/kratix-cli/master/README.md"
+  - "--label=io.artifacthub.package.logo-url=https://raw.githubusercontent.com/phiph/kratix-cli/master/www/static/images/logo.png"
   - "--label=io.artifacthub.package.maintainers=[{\"name\":\"Tom Morelly\",\"email\":\"tommorelly@gmail.com\"}]"
   - "--label=io.artifacthub.package.license=MIT"
   - "--label=org.opencontainers.image.description=A general purpose golang CLI template for Github and Gitlab"
