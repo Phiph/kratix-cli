@@ -5,7 +5,7 @@ go 1.21
 toolchain go1.21.3
 
 require (
-	github.com/daixiang0/gci v0.12.1
+	github.com/daixiang0/gci v0.12.3
 	github.com/docker/docker v25.0.3+incompatible
 	github.com/go-critic/go-critic v0.11.0
 	github.com/golangci/golangci-lint v1.56.1
