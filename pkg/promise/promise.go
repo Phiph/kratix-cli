@@ -3,6 +3,7 @@ package promise
 import (
 	"context"
 	"fmt"
+	"io"
 	"os"
 	"strings"
 
@@ -61,6 +62,16 @@ func TestPromise(runCommand string) {
 	}
 
 	if err := cli.ContainerStart(ctx, resp.ID, container.StartOptions{}); err != nil {
+		panic(err)
+	}
+
+	out, err := cli.ContainerLogs(ctx, resp.ID, container.LogsOptions{ShowStdout: true})
+	if err != nil {
+		panic(err)
+	}
+
+	_, err = io.Copy(os.Stdout, out)
+	if err != nil {
 		panic(err)
 	}
 }
