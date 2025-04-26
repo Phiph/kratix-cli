@@ -25,7 +25,7 @@ jobs:
         file: aspects/terraform-module-promise/Dockerfile
         # List of metadata for an image
         # List of tags
-        tags: ghcr.io/phiph/kratix-cli/terraform-generate:latest
+        tags: ${{ github.repository }}/terraform-generate:latest
         # GitHub Token used to authenticate against a repository for Git context
         github-token: ${{ github.token }}
           
