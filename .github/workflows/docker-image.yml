@@ -33,4 +33,5 @@ jobs:
         tags: ghcr.io/phiph/kratix-cli/terraform-generate:latest
         # GitHub Token used to authenticate against a repository for Git context
         github-token: ${{ github.token }}
+        push: true
           
